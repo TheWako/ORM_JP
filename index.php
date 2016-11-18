@@ -2,9 +2,9 @@
 
 require('./src/Entity/User.php');
 
-$newEntity = new User();
-$newEntity->FName = 'NO';
-$newEntity->LName = 'One';
-$newEntity->Age = 24;
-$newEntity->add();
+$user = new User();
+$user->FName = 'NO';
+$user->LName = 'One';
+$user->Age = 24;
+$user->add();
 echo 'Saved changes successfully';
